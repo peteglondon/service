@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"bitbucket.org/kardianos/osext"
-	"code.google.com/p/winsvc/eventlog"
-	"code.google.com/p/winsvc/mgr"
-	"code.google.com/p/winsvc/svc"
+	"github.com/btcsuite/winsvc/eventlog"
+	"github.com/btcsuite/winsvc/mgr"
+	"github.com/btcsuite/winsvc/svc"
+	"github.com/mitchellh/osext"
 )
 
 const version = "Windows Service"
